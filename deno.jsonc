@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --watch main.ts",
+    "windows": "deno compile --allow-net --allow-read --target x86_64-pc-windows-msvc main.ts",
+    "x86mac": "deno compile --allow-net --allow-read --target x86_64-apple-darwin main.ts",
+    "armmac": "deno compile --allow-net --allow-read --target aarch64-apple-darwin main.ts"
+  }
+}
